@@ -1,0 +1,100 @@
+
+h1{
+  text-align: center;
+  padding: 20px;
+  margin: 40px;
+}
+body{
+  background-color: red;
+}
+
+
+.bigbox1{
+  
+  margin:40px;
+    
+      opacity: 90%;
+     border: 0.2rem solid black;
+    background-color:rgb(175, 175, 175);
+  position: relative;
+      
+
+}
+
+.smallbox1{
+     font-size: 125%;
+     width:fit-content;
+    position: relative;
+    border: 0.2rem solid black;
+    padding: 0.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-top: -0.2rem;
+    margin-right: -0.2rem;
+    background-color:rgb(255, 202, 202);
+   
+ 
+  
+
+}
+
+.smallbox2{  
+  font-size: 125%;
+     width:fit-content;
+    position: relative;
+    border: 0.2rem solid black;
+    padding: 0.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-top: -0.2rem;
+    margin-right: -0.2rem;
+    background-color:rgb(210, 45, 45);
+}
+.smallbox3{
+   font-size: 125%;
+     width:fit-content;
+    position: relative;
+    border: 0.2rem solid black;
+    padding: 0.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-top: -0.2rem;
+    margin-right: -0.2rem;
+    background-color:rgb(255, 230, 153);
+}
+.text1,.text2,.text3{
+  font-weight: bold;
+  text-align: left;  
+  margin: 20px;
+
+}
+
+@media (min-width: 992px)
+{
+  .container1
+  {
+    float: left;
+    width: 33.33%
+  }
+  .container3
+  {
+    float: left;
+    width: 33.33%
+  }
+}
+@media (max-width: 991px) and (min-width: 768px)
+{
+  .container1
+  {
+    width: 50%;
+    float: left;
+  }
+  .container3
+  {
+    clear: left;
+  }
+
+}
